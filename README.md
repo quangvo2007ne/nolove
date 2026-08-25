@@ -1,56 +1,60 @@
-Chúc mừng thành công! 🎉 Chuyển sang GitHub profile ngay.
-Đề xuất GitHub Profile chuyên nghiệp
-Dựa trên kỹ năng thực tế của bạn, đây là README profile + danh sách repo nên có:
-# Binary Reverse Engineer · iOS Security Researcher
+# Hi 👋, I'm VIET QUANG
+
+### Reverse Engineer · Binary Analysis · Mach-O / ARM64
+
+Digging into how software actually works, one binary at a time.
+
+[GitHub](https://github.com/quangvo2007ne) • [Facebook/Contact](#)
+
+---
+
+# 🚀 About Me
+
+I focus on **reverse engineering** — reading disassembly, analyzing binary
+formats, and understanding how compiled software behaves at runtime.
+
+Practicing responsible disclosure: when I find a vulnerability in
+third-party software, I report it directly to the vendor.
+
+Current focus:
+
+- 🔍 Static & dynamic binary analysis
+- 🧩 Mach-O / ARM64 internals
+- 🐍 Python tooling for reverse engineering
+- 📡 Frida-based runtime instrumentation
+
+---
+
+# 🛠 Tech Stack
 
 ![ARM64](https://img.shields.io/badge/Arch-ARM64-red)
-![Mach-O](https://img.shields.io/badge/Format-Mach__O-blue)
+![Mach--O](https://img.shields.io/badge/Format-Mach--O-blue)
 ![Frida](https://img.shields.io/badge/Dynamic-Frida-orange)
 ![Python](https://img.shields.io/badge/Tooling-Python-yellow)
-
-## About
-
-Binary reverse engineer specializing in iOS/ARM64 Mach-O analysis,
-ObjC runtime internals, and static binary patching. I build custom
-tooling for Mach-O structure parsing, export trie resolution, and
-inline-hook engine mapping.
-
-## 🔧 Technical Stack
+![Objective--C](https://img.shields.io/badge/Lang-Objective--C-lightgrey)
 
 | Domain | Skills |
 |---|---|
-| **Binary Analysis** | Mach-O format (segments/symbols/export trie), ARM64 disassembly, ObjC runtime (classlist/methodlists/selrefs) |
-| **Static Patching** | Control-flow redirect, inline-hook mapping, minimal-diff patching, idempotent patch scripts |
-| **Dynamic Analysis** | Frida (V8/QuickJS), runtime hooking, memory diffing, function tracing |
-| **Tooling** | Python (struct/ctypes), PowerShell (binary ops), custom Mach-O parser |
-| **Platforms** | iOS (arm64), Unity/Il2Cpp internals, WebSocket protocols |
+| **Binary Analysis** | Mach-O format, ARM64 disassembly, ObjC runtime internals |
+| **Dynamic Analysis** | Frida, runtime hooking, function tracing |
+| **Tooling** | Python (struct/ctypes), custom parsers |
 
-## 🛠️ Notable Projects
+---
 
-### [lqn-tools](https://github.com/YOUR_USERNAME/lqn-tools)
-Mach-O binary analysis toolkit — export trie parser, ObjC metadata
-walker, ARM64 lite-disassembler, and idempotent binary patcher.
+# 📊 GitHub Stats
 
-### [frida-compat](https://github.com/YOUR_USERNAME/frida-compat)
-Frida 17+ compatibility layer — GX/AX export resolution, runtime
-guards, and anti-detection patterns for hardened iOS targets.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
 
-### [macho-inspect](https://github.com/YOUR_USERNAME/macho-inspect)
-Standalone Mach-O header/segment/section parser with symbol table
-and function-starts extraction. Pure Python, zero dependencies.
+---
 
-## 📊 GitHub Stats
+# 📈 GitHub Streak
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark)
-Repos nên tạo (từ tool đã build trong project)
-Repo	Nội dung
-macho-inspect	macho_parse.ps1 + parse_exports.py + identify_hooks2.ps1
-arm64-lite	arm64_disasm_lite.ps1 decoder
-frida-guards	Compat layer + anti-anti-debug patterns
-binary-patcher	patch_keyless_v2.py + make_ipa.py
-Tips thêm
-1. Avatar — dùng logo đơn giản (không cần ảnh mặt)
-2. Bio — Binary RE · Mach-O · ARM64 · Frida · Python
-3. Location — để trống hoặc Vietnam
-4. Pin 3-4 repos có README tốt nhất
-5. Mỗi repo có README.md giải thích: mục đích, cách dùng, example output
+![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=tokyonight)
+
+---
+
+
+### "Read the binary. Understand the system."
+
+⭐ Thanks for visiting!
